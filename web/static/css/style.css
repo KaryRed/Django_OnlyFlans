@@ -1,5 +1,66 @@
 .imagen-logo {
     width: 15rem;
-    margin:2rem 0;
+    margin: 2rem 0;
+}
 
+.card {
+    width: 200px; /* Ajusta el ancho según tus necesidades */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Asegúrate de que las imágenes dentro de las tarjetas tengan el mismo tamaño */
+.card img {
+    width: 100%; /* La imagen ocupa todo el ancho del contenedor */
+    height: 200px; /* Ajusta la altura para que todas las imágenes tengan la misma altura */
+    object-fit: cover; /* Ajusta la imagen para que cubra el contenedor sin distorsionarse */
+}
+
+footer {
+    background-color: #f8f9fa; /* Color de fondo del footer */
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ddd; /* Línea separadora en la parte superior del footer */
+}
+
+.footer-content {
+    max-width: 1200px; /* Máximo ancho del contenido del footer */
+    margin: 0 auto;
+}
+
+.footer-links {
+    list-style: none; /* Quitar los puntos de la lista */
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #007bff; /* Color de los enlaces */
+}
+
+.footer-links a:hover {
+    text-decoration: underline; /* Subrayar los enlaces al pasar el cursor */
+}
+
+.footer-social {
+    margin-top: 10px;
+}
+
+.social-icon {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.social-icon:hover {
+    text-decoration: underline;
 }
